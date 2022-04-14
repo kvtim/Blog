@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/create.css">
+  <title>Blog</title>
+</head>
+<body>
+<section class="container">
+  <nav>
+    <ul class="tabs">
+      <li><a class="tab " href="posts.html">Posts</a></li>
+      <li><a class="tab active" href="create.html">Create</a></li>
+      <li><a class="tab " href="favorite.html">Favorites</a></li>
+    </ul>
+  </nav>
+
+  <form id="create">
+    <h1>Create new post</h1>
+
+    <div class="form-control">
+      <label>Title</label>
+      <input type="text" name="title" placeholder="Enter the title">
+    </div>
+
+    <div class="form-control">
+      <label>Content</label>
+      <textarea name="fulltext" placeholder="Enter post text"></textarea>
+    </div>
+
+    <div class="form-control">
+      <label>Type</label>
+      <select name="type">
+        <option value="note" selected>Note</option>
+        <option value="news">News</option>
+      </select>
+    </div>
+
+    <button
+      class="button button-round"
+      type="submit">Create</button>
+  </form>
+
+</section>
+</body>
+</html>
