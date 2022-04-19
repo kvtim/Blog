@@ -1,3 +1,7 @@
+.start {
+    text-decoration: none
+}
+
 article {
     position: relative;
     display: flex;
