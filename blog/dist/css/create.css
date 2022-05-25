@@ -1,0 +1,33 @@
+.form-control {
+    margin-bottom: 10px
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    line-height: 20px;
+    font-weight: inherit;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #bdbdbd
+}
+
+textarea {
+    width: 100%;
+    font-weight: inherit;
+    padding: 10px 15px;
+    min-height: 100px;
+    line-height: 1.4;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px
+}
+
+.validation-error {
+    margin-top:2px;
+    font-size:12px;
+    color:#f44336
+}
+
+.invalid {
+    border-color:#f44336
+}
